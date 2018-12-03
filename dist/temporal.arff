@@ -1,0 +1,10 @@
+%xdss
+@relation 'tipo de prestamo'
+%ATRIBUTOS POR ORDEN DE APARICIÓN EN LA DESCRIPCIÓN
+@attribute monto INTEGER
+@attribute antiguedad INTEGER
+@attribute edad INTEGER
+@attribute prestamo {'A SOLA FIRMA',EXTRAORDINARIO}
+%DATOS DE LOS PARTICIPANTES
+@data
+300000,5475,9125,?
